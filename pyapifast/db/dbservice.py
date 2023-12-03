@@ -12,7 +12,13 @@ def check_connection():
         database_client = connect_mongodb()
 
 
-def insert_user(user: User):
+def get_users():
+    check_connection()
+
+    return list(User.objects)
+
+
+def create_user(user: User) -> User:
     check_connection()
     user.save()
     return user
@@ -23,5 +29,5 @@ if __name__ == "__main__":
         email="debabrata_patnaik@live.com", first_name="Debabrata", last_name="Patnaik"
     )
 
-    u = insert_user(user)
+    u: User = create_user(user)
     print(u)

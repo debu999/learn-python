@@ -5,21 +5,21 @@ Returns:
     Does not return anything: Have rest endpoints
 """
 from typing import Union
-
+from pyapifast.apis import userapi
 from anyio import CapacityLimiter
 from anyio.lowlevel import RunVar
 from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
+app.include_router(userapi.router)
+
 
 class Item(BaseModel):
     name: str
     price: float
     is_offer: Union[bool, None] = None
 
-
-app = FastAPI()
 
 @app.on_event("startup")
 def startup():
