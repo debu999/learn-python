@@ -166,3 +166,4 @@ cython_debug/
 *.code-workspace
 *sql
 selenium_automation/
+.DS_Store
