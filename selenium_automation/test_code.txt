@@ -1,0 +1,35 @@
+<div class="nbde-question">
+<div class="interrogative">
+5. The dentist prescribes the patient a denture adhesive to be used temporarily till new dentures are made. Two weeks later, the patient calls up complaining of vomiting, diarrhea, and some numbness in the extremities. He mentioned it all started after using the denture adhesive. What could have led to these symptoms? </div>
+<ul class="question-answers  answered">
+<li class="question-answer  ">
+<input type="radio" name="question_answer-553" value>
+<label>
+A. Carboxymethylcellulose <span class="answer-percentage">
+[9%] </span>
+</label>
+</li>
+<li class="question-answer  ">
+<input type="radio" name="question_answer-553" value>
+<label>
+B. Polymethyl vinyl ether <span class="answer-percentage">
+[16%] </span>
+</label>
+</li>
+<li class="question-answer correct ">
+<input type="radio" name="question_answer-553" value="1" checked>
+<label>
+C. Zinc <span class="answer-percentage">
+[70%] </span>
+</label>
+</li>
+<li class="question-answer  ">
+<input type="radio" name="question_answer-553" value>
+<label>
+D. Selenium <span class="answer-percentage">
+[5%] </span>
+</label>
+</li>
+</ul>
+</div>
+</div>

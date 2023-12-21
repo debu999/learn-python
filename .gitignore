@@ -165,5 +165,5 @@ cython_debug/
 *.db
 *.code-workspace
 *sql
-selenium_automation/
+selenium_automation/chromedir
 .DS_Store
