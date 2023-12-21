@@ -43,5 +43,5 @@ async def add_user(user: User):
     except Exception as e:
         raise HTTPException(
             status_code=500, detail="".join(traceback.format_exception(e))
-        ) from e
+        )
     return usr
